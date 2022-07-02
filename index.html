@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="nombre">Valentín Di Geronimo</h1>
+    <nav id="navbar">
+        <a href="#nombre">Sobre mí</a>
+        <a href="#formacion">Formación</a>
+        <a href="#skills">Skills</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <article id="about">
+        <h3>Sobre mí</h3>
+        <div class="info-imagen">
+            <div>
+                <p class="sobre-mi">Vivo en Ciudad Autónoma de Buenos Aires, Argentina, y tengo 23 años.</p>        
+                <p class="sobre-mi">Durante gran parte de mi vida creí que lo mío era la arquitectura, y en 2020 me gradué con el título de <i>"Maestro Mayor de Obras"</i>.</p>
+                <p class="sobre-mi">Sin embargo, durante la pandemia me dí cuenta de que algo no encajaba con lo que realmente quería ser...</p>
+                <p class="sobre-mi">Por eso, a comienzos del 2022 decidí dar un radical giro e iniciarme en el mundo de la programación, intentar aprovechar todos los recursos que estén a mi alcance para perfeccionarme en este ámbito y así, algún día, ejercer este interesante y desafiante oficio.</p>
+            </div>
+            <figure>
+                <img src="Imagenes/Foto.png" alt="" class="imagen-perfil">
+            </figure>
+        </div>
+    </article>
+
+    <article id="formacion">
+        <h3>Formación</h3>
+        <ul class="estudios">
+            <li>Oracle Next Education 2022 <span>En curso</span></li>
+            <li>Escuela Técnica N°9 "Ing. Luis Augusto Huergo" 2020 <span>Finalizado</span></li>
+            <li>"BIMet Joven", Cámara Argentina de la Consturcción 2019 <span>Finalizado</span></li>
+        </ul>
+    </article>
+
+    <article id="skills">
+        <h3>Skills</h3>
+            <div class="lenguajes">
+                <figure>
+                    <img src="Imagenes/html-5.png" alt="" class="icono-lenguaje">
+                    <figcaption>HTML5</figcaption>
+                </figure>
+                <figure>
+                    <img src="Imagenes/css-3.png" alt="" class="icono-lenguaje">
+                    <figcaption>CSS3</figcaption>
+                </figure>
+                <figure>
+                    <img src="Imagenes/js.png" alt="" class="icono-lenguaje">
+                    <figcaption>JavaScript</figcaption>
+                </figure>
+                <figure>
+                    <img src="Imagenes/git.png" alt="" class="icono-lenguaje">
+                    <figcaption>GIT</figcaption>
+                </figure>
+                <figure>
+                    <img src="Imagenes/java.png" alt="" class="icono-lenguaje">
+                    <figcaption>Java</figcaption>
+                </figure>
+            </div>
+    </article>
+
+    <article id="proyectos">
+        <h3>Proyectos</h3>
+        <figure>
+            <img src="Imagenes/Encriptador.png" alt="" class="imagen-proyecto">
+            <a href="https://zippomiga.github.io/Encriptador_Challenge1-Oracle_One/" target="_blank">Encriptador 🡽</a>
+        </figure>
+        <figure>
+            <img src="Imagenes/Ahorcado.png" alt="" class="imagen-proyecto">
+            <a href="https://zippomiga.github.io/Challenge-2-Ahorcado/" target="_blank">Juego del Ahorcado 🡽</a>
+        </figure>
+    </article>
+
+    <article id="contacto">
+        <h3>Contacto</h3>
+        <div class="formulario-redes">
+            <form action="#" class="formulario">
+                <p>Prometo responder lo antes posible :)</p>
+                <label for="form-nombre">Nombre:</label>
+                <input type="text" name="form-nombre" id="form-nombre" required>
+                <label for="form-email">Email:</label>
+                <input type="email" name="form-email" id="form-email" required>
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" name="telefono" id="telefono" required>
+                <label for="form-asunto">Asunto:</label>
+                <input type="text" name="form-asunto" id="form-asunto" required>
+                <label for="form-mensaje">Mensaje:</label>
+                <textarea name="form-mensaje" id="form-mensaje" cols="30" rows="10" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <div class="redes-sociales">
+                <a href="https://github.com/Zippomiga" target="_blank">
+                    <img class="imgRedes" src="Imagenes/IconoGithub.png" alt="Github">
+                </a>
+                <a href="https://www.linkedin.com/in/digeronimovalentin/" target="_blank">
+                    <img class="imgRedes" src="Imagenes/IconoLinkedin.png" alt="Linkedin">
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=541168904100&text=%20" target="_blank">
+                    <img class="imgRedes" src="Imagenes/IconoWhatsApp.png" alt="WhatsApp">
+                </a>
+                <a href="mailto:digeronimovalentin@gmail.com" target="_blank">
+                    <img class="imgRedes" src="Imagenes/IconoGmail.png" alt="Gmail">
+                </a>
+            </div>
+        </div>
+    </article>
+
+    <footer>
+        <p class="copyrigth">&#169; Valentin Di Geronimo - 2022</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
